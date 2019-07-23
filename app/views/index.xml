@@ -1,0 +1,10 @@
+<Alloy>
+    <NavigationWindow id="navWin">
+        <Window id="home" class="container" title="Home">
+            <View class="vertical wrapHeight">
+                <Button id="toListView" onClick="navigateToListView">ListView Window</Button>
+                <Button id="toButtons">Generate Buttons</Button>
+            </View>
+    	</Window>
+    </NavigationWindow>
+</Alloy>

@@ -1,0 +1,14 @@
+<Alloy>
+    <Window id="listViewWin" class="container" title="List View">
+        <ListView id="listView">
+            <Templates>
+                <ItemTemplate name="myTemplate">
+                    <Label id="title" bindId="title" class="wrapHeight"></Label>
+                    <Label id="subTitle" bindId="subTitle" class="wrapHeight"></Label>
+                </ItemTemplate>
+            </Templates>
+            <ListSection id="section">
+            </ListSection>
+        </ListView>
+    </Window>
+</Alloy>
