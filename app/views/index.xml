@@ -4,6 +4,7 @@
             <View class="vertical wrapHeight">
                 <Button id="toListView" onClick="navigateToListView">ListView Window</Button>
                 <Button id="toButtons" onClick="navigateToGenerateBtn">Generate Buttons</Button>
+                <Button id="toProperties" onClick="navigateToproperties">Locale Data Storage</Button>
             </View>
     	</Window>
     </NavigationWindow>

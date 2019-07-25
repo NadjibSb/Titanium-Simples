@@ -1,4 +1,20 @@
 <Alloy>
-	<View class="container">
-	</View>
+    <TabGroup id="tabGroup" class="container">
+        <Tab id="tab1">
+            <Window>
+                <View class="vertical wrapHeight">
+                    <TextField id="txtfData"></TextField>
+                    <Button onClick="storeData">Save</Button>
+                </View>
+            </Window>
+        </Tab>
+        <Tab id="tab2" onSelected="retreiveData">
+            <Window>
+                <View class="vertical wrapHeight">
+                    <Label id="lblDataDisplay"></Label>
+                    <Button onClick="clearData">Clear</Button>
+                </View>
+            </Window>
+        </Tab>
+    </TabGroup>
 </Alloy>

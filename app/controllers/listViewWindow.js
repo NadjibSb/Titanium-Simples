@@ -12,6 +12,6 @@ for (var i = 0; i < 10; i++) {
     });
 }
 
-Titanium.API.info(data);
+//Titanium.API.info(data);
 
 $.section.setItems(data);

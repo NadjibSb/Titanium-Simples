@@ -1,4 +1,16 @@
 
 ".container" : {
-  
+  backgroundColor: 'white',
+  title: "Properties"
+}
+
+'#tab1': {
+    title: "Store Data"
+}
+'#tab2': {
+    title: "Retreive Data"
+}
+
+'#txtfData': {
+    hintText: "enter data"
 }

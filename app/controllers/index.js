@@ -9,5 +9,9 @@ function navigateToGenerateBtn(e){
     navManager.openWindow(Alloy.createController("/generateBtnWindow").getView());
 }
 
+function navigateToproperties(e){
+    navManager.openWindow(Alloy.createController('/properties').getView());
+}
+
 
 $.navWin.open();
