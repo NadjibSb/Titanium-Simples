@@ -1,0 +1,9 @@
+<Alloy>
+    <Window class="container">
+        <View class="vertical wrapHeight">
+            <TextField id="txtfEmail"></TextField>
+            <TextField id="txtfPassword"></TextField>
+            <Button id="btnLogin" onClick="login">Log in</Button>
+        </View>
+    </Window>
+</Alloy>

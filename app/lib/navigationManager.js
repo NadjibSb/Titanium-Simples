@@ -4,6 +4,6 @@ exports.initialize = function(_navWin){
     navWin = _navWin;
 }
 
-exports.openWindow = function(win){
-    navWin.openWindow(win);
+exports.openWindow = function(controllerName){
+    navWin.openWindow(Alloy.createController(controllerName).getView());
 }

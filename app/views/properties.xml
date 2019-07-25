@@ -9,7 +9,7 @@
             </Window>
         </Tab>
         <Tab id="tab2" onSelected="retreiveData">
-            <Window>
+            <Window class="bgBleu">
                 <View class="vertical wrapHeight">
                     <Label id="lblDataDisplay"></Label>
                     <Button onClick="clearData">Clear</Button>

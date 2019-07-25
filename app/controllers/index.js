@@ -1,17 +1,20 @@
 var navManager = require("/navigationManager");
 navManager.initialize($.navWin);
 
+$.navWin.open();
+
 function navigateToListView(e){
-    navManager.openWindow(Alloy.createController("listViewWindow").getView());
+    navManager.openWindow("listViewWindow");
 }
 
 function navigateToGenerateBtn(e){
-    navManager.openWindow(Alloy.createController("/generateBtnWindow").getView());
+    navManager.openWindow("/generateBtnWindow");
 }
 
 function navigateToproperties(e){
-    navManager.openWindow(Alloy.createController('/properties').getView());
+    navManager.openWindow("/properties");
 }
 
-
-$.navWin.open();
+function navigateToWebServices(e){
+    navManager.openWindow('/webServices');
+}

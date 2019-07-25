@@ -2,9 +2,10 @@
     <NavigationWindow id="navWin">
         <Window id="home" class="container">
             <View class="vertical wrapHeight">
-                <Button id="toListView" onClick="navigateToListView">ListView Window</Button>
-                <Button id="toButtons" onClick="navigateToGenerateBtn">Generate Buttons</Button>
-                <Button id="toProperties" onClick="navigateToproperties">Locale Data Storage</Button>
+                <Button onClick="navigateToListView">ListView Window</Button>
+                <Button onClick="navigateToGenerateBtn">Generate Buttons</Button>
+                <Button onClick="navigateToproperties">Locale Data Storage</Button>
+                <Button onClick="navigateToWebServices">Web Services</Button>
             </View>
     	</Window>
     </NavigationWindow>

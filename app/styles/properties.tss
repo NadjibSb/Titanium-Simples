@@ -14,3 +14,8 @@
 '#txtfData': {
     hintText: "enter data"
 }
+
+
+'.bgBleu': {
+    backgroundColor: 'lime'
+}

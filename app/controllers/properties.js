@@ -1,4 +1,5 @@
 // Arguments passed into this controller can be accessed via the `$.args` object directly or:
+var dataManager = require("/dataManager")
 var args = $.args;
 
 $.tab1.addEventListener("selected",(e)=>{
@@ -6,18 +7,18 @@ $.tab1.addEventListener("selected",(e)=>{
 });
 
 function storeData(e){
-    let data = $.txtfData.value;
-    Ti.App.properties.setString("myData",data);
+    var data = $.txtfData.value;
+    dataManager.setLocalData(data);
     $.tabGroup.setActiveTab($.tab2);
 }
 
 function retreiveData(e){
-    let data = Ti.App.properties.getString("myData","default");
+    var data = dataManager.getLocalData();
     $.lblDataDisplay.setText(data);
 }
 
 function clearData(e){
-    Ti.App.properties.removeProperty("myData");
+    dataManager.removeLocalData();
     $.txtfData.value = "";
     retreiveData();
 }
