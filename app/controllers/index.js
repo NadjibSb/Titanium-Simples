@@ -5,6 +5,9 @@ function navigateToListView(e){
     navManager.openWindow(Alloy.createController("listViewWindow").getView());
 }
 
+function navigateToGenerateBtn(e){
+    navManager.openWindow(Alloy.createController("/generateBtnWindow").getView());
+}
 
 
 $.navWin.open();

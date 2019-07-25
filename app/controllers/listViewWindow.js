@@ -6,11 +6,12 @@ var data = [];
 
 for (var i = 0; i < 10; i++) {
     data.push({
-        title: "Title "+i,
-        subTitle: "Sub Title "+i
+        template : "myTemplate",
+        title: {text:"Title "+i},
+        subTitle: {text:"Sub Title "+i}
     });
 }
 
 Titanium.API.info(data);
 
-$.section.items = data;
+$.section.setItems(data);

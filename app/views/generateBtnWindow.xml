@@ -1,0 +1,8 @@
+<Alloy>
+    <Window class="container">
+        <View id="btnContainer" class="vertical wrapHeight">
+
+        </View>
+
+    </Window>
+</Alloy>
