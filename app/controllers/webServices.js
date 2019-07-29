@@ -23,5 +23,4 @@ function login(e){
         email: $.txtfEmail.value,
         password: $.txtfPassword.value
     });
-    Ti.API.info($.txtfEmail.value +" "+ $.txtfPassword.value);
 }
